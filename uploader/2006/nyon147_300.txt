@@ -1,0 +1,30 @@
+0	451aa026	13	1	1762a	3	2	54:1/2 7072994 Rue de la Blancherie 28 1022 Chavannes Mme Baldauf 0216357846 
+1	451aa026	13	1	13bee2	3	2	 0033389687020  Herr  Richon  Richon J-L Informatik  0033 389 68 70 20  Sie wiss
+2	451aa026	13	1	13bee2	3	2	en Bescheid, erst   18:45 erreichbar.   
+3	451aa026	13	1	156a82	0	2	q:Y@
+4	451aa038	13	1	f45fd	3	2	17:42 ST11 R104 Handeingriff  17:57  
+5	451aa04f	13	1	156a80	0	2	q:aE
+6	451aa04f	13	1	19f4ab	3	2	17:58:07 sbe5944: Usage (80.00) of /var/opt/oracle/arc/PMCCBS arc higher than t
+7	451aa04f	13	1	19f324	3	2	H1:Stoerung Sinterofen 902  
+8	451aa04f	13	1	19f324	3	2	H1:Stoerung Sinterofen 902  
+9	451aa04f	13	1	1cd755	3	2	M-Box: Neue Nachricht von 0793648134 
+a	451aa04f	13	1	1ab4fd	3	2	81:2/2 une patte. Merci. 
+b	451aa04f	13	1	f44a6	3	2	FS: 0102 02 12 Y 999999 geschlossen! 17:57
+c	451aa064	13	1	60	3	2	Herr Bachmann, ubernimmt Dienst 1 ab 18:00 Uhr bis am Freitag 7:00 Uhr.
+d	451aa064	13	1	1ab4fd	3	2	81:1/2 Rapp M Matthey Claude aux Reussilles au 0324875569 cc: cheval souffrant a
+e	451aa064	13	1	17815	3	2	 BK INFO COMMUTATION AUTOM. REGIME DE NUIT  27 09 06 18:00:04 ->0328911   
+f	451aa064	13	1	1552bf	0	1	1590 
+10	451aa064	13	1	156a82	0	2	q:a@
+11	451aa064	13	1	13bee2	3	2	en Bescheid, erst   18:45 erreichbar.   
+12	451aa064	13	1	13bee2	3	2	 0033389687020  Herr  Richon  Richon J-L Informatik  0033 389 68 70 20  Sie wiss
+13	451aa074	13	1	156a83	0	2	q:a&E
+14	451aa074	13	1	f45fd	3	2	17:42 ST11 R104 Handeingriff  17:57  
+15	451aa088	13	1	19f324	3	2	H1:Stoerung Sinterofen 902  
+16	451aa09f	13	1	60	3	2	Herr Bachmann, ubernimmt Dienst 1 ab 18:00 Uhr bis am Freitag 7:00 Uhr.
+17	451aa09f	13	1	1ab4fd	3	2	81:2/2 une patte. Merci. 
+18	451aa09f	13	1	156a82	0	2	q:a@
+19	451aa09f	13	1	1ab4fd	3	2	81:1/2 Rapp M Matthey Claude aux Reussilles au 0324875569 cc: cheval souffrant a
+1a	451aa09f	13	1	17815	3	2	 BK INFO COMMUTATION AUTOM. REGIME DE NUIT  27 09 06 18:00:04 ->0328911   
+1b	451aa09f	13	1	19f4ab	3	2	17:58:07 sbe5944: Usage (80.00) of /var/opt/oracle/arc/PMCCBS arc higher than t
+1c	451aa09f	13	1	1552be	0	1	1590 
+1d	451aa09f	13	1	1552bf	0	1	1590 

@@ -1,0 +1,401 @@
+Subject: Kenwood TH79 Dual Bander Modifications
+Kenwood TH79 Dual Bander Modification and Feature Guide  r1.5  9/13/94
+=======================================================================
+Clayton Wagar, KD4IDN
+920 West Crawford Street #7
+Dalton, GA 30720
+
+Here is a compiled list of modifications and features I've found for the
+Kenwood TH79 Dual Band HT. 
+
+Thanks to the following for their contributions to this document:
+	Mike Musick, N0QBF
+	Cole Cunningham, AA7RD
+	Duane Voth, KC5BGV
+	Chuck Scott, N8DNX
+
+Having had many other radios in the past, and certain to have many in
+the future, I understand the anticipation of Amateur Radio operators to
+find modifications to their equipment. I started this document because I
+want to see _quality_ information circulated as quickly as possible, in
+order to save a lot of time and effort for others.
+
+If you have any other comments, mods, or information you would like to see
+included in this document in the future, please send them to:
+        Clayton Wagar KD4IDN
+        yensid1@aol.com
+
+Outstanding questions at the time this document was released:
+
+* Rumor of a keypad modification to the radio for "Wide band" TX, RX. If you
+  know of this mod, please write to me, even if you wish it not to be
+  published. This would save a number of poor radios from useless torture!
+
+Hope you find all of this information useful. Again, please send corrections
+or additions to yensid1@aol.com 
+
+73 de Clayton
+KD4IDN
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Contents of This Document
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+I.    Disclaimer and other foolery
+II.   Brief Description of the Kenwood TH79A Dual Band Handheld Radio
+III.  MARS/CAP Modification
+IV.   Extended TX/RX Modification ('Beyond MARS')
+V.    Remote Base Operation
+VI.   Post Modification Specification Chart
+VII.  Cross Band Repeat
+VIII. Other Stuff
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+I. Disclaimer
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Well, don't you get sick of this stuff? I know, I know. However, I must
+say that I cannot and will not be responsible for anything that might
+happen to your radio, your person, your dog, or other operators you
+might talk to with your th79. In addition, if you decide that, with
+your newly modified HT, you just absolutely must cause unlawful
+interference with another ham or another radio service, I won't pay your
+NAL. Really.
+
+Oh, and while we're at it... The extended RX/TX modifications may
+require you to solder or desolder really, really small components. If
+you want to know how small, look at the tip of an average ball point pen.
+Smaller than that. It takes about 1/2 of a second to wipe out several
+components as well as fry the board inside the 79. Please be careful.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+II. TH79 Description and Impressions, by Mike Musick, N0QBF
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Lulled by the sexy small size, I succumbed (or, rather, the
+credit card succumbed) and bought a Kenwood TH-79 dual-band H-T
+recently. Already owning a TH-78, the comparison comes easy.
+
+SPECS. The TH-79A is a U.S.-spec dual-band transceiver, featuring
+coverage from 144-148 and 438-450 MHz. Receive coverage is
+extended on the 2M side from 118 to 174 MHz with AM in the
+aircraft band; there is no extended UHF coverage without
+modification. Max power is rated 5W on VHF and 3.5W on UHF with a
+12V source; max power with stock 600 mAH nicad pack is 2.5/2.0.
+There are three power levels for each band - high, low, and
+extra-low (30mW). There are 80 memory channels, with no evident
+expansion capability. U.S./Canada version comes with the CTCSS
+encode/decode option. Going price at a 7/17/94 hamfest was $480.
+
+GENERAL IMPRESSIONS. Tiny, tiny, tiny. Imagine putting a small
+duckie on the ARRL Repeater Directory - except that the 79 is
+narrower by about an inch. With the standard battery and not
+counting the belt clip, the dimensions are roughly 2" wide, 5"
+tall, and 1" thick. The belt clip adds 3/8" to the thickness; I
+left it off so it would be pocketable, and, frankly, it fits
+moderately comfortably in my work slacks' front pockets, which
+was surprising. It's tiny! (Oh, I said that already.)
+
+The 79's keyboard has larger buttons than it's predecessor (lacks
+the cover, too) which are much easier to use. Control layout in
+general is better and even in just a couple of days I appreciated
+the change. No more ambiguous power switch - it's in the primary
+band volume knob in a normal OFF/ON/VOL setup. Secondary band
+volume control is on the "ring" of the freq/channel encoder knob
+in a coaxial arrangement.
+
+There are no squelch knobs; it a key+knob function for both
+bands. Squelch control was, well, interesting. There are only six
+"settings", with usually only the lowest setting opening the
+squelch under no signal. Reading between the lines in the manual,
+apparently the squelch circuit is semi-automatic. I expected some
+limitations, but had no complaints under actual use - it worked
+well.
+
+With my expected habit of putting it in my pocket, I like the
+control lock switch - it's *not* an F-key function, but, rather
+is a slide switch next to the PTT. No more fumbling around to
+unlock it. Unfortunately, the lock function does not lock PTT -
+that has to be disabled with the "Tx Stop" menu setting. I found
+this out the hard way by putting it in my pocket and
+inadvertently keying-up a repeater.
+
+The 79 has an alphanumeric display capability of two lines of 10
+characters, which is used in several ways. First, there is a
+"guide" facility, which provides online instruction for most
+operation features with a scrolling display. Then there is a
+"menu" function, which provides access to the settings which were
+normally done with obscure F-key commands in the 78. Setting the
+various functions is very clear this way. There is also a status
+review mode, where the more important settings are displayed.
+
+Finally, the alphanumeric display can be set for each programmed
+channel. Seven characters positions are available, and almost the
+entire extended ANSI character set - that's right: lower case,
+symbols, and accented characters - can be used. However, alpha
+display is mutually exclusive with frequency display. Frequency
+display mode can be selected in case you forgot what was
+"underneath" your programmed channel ID.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+III. MARS/CAP Modification provided by Mike Musick, N0QBF
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Here is the MARS/CAP modification for the new Kenwood TH-79A
+dual-band HT. Usual disclaimers about doing mods apply.
+
+1. Remove battery.
+
+2. Open case by first removing 3 screws (#00 Phillips) on back
+and 1 screw on side hidden underneath the rubber flap covering
+the DC power jack. Gently pry apart starting at top; BNC
+connector will move with back, knobs with front.
+
+3. Spread unit out. Wires will "hinge" on the side with the PTT
+button.
+
+4. Looking on the back of the keypad (front) half, locate green
+wire on upper left, just below the CTCSS decoder module.
+
+5. Neatly cut this green wire, and tuck back in so ends won't
+touch each other or other components.
+
+6. Reassemble.
+
+Programmed memory will be lost since the CPU will notice the
+strap change and reset itself.
+
+End result -
+
+   Before: VHF RX - 118.000-173.995  TX - 144.000-147.995
+           UHF RX - 438.000-449.995  TX - 438.000-449.995
+
+   After:  VHF RX - 118.000-173.995  TX - 142.000-151.995
+           UHF RX - 420.000-449.995  TX - 420.000-449.995
+
+Automatic repeater offset and shift selections remain normal.
+
+And this tip comes from Duane Voth, KC5BGV...
+
+"The MARS/CAP mod can be made without opening the entire case up.  You 
+can fairly easily cut the green wire by simply (and carefully) removing 
+the CTCSS decoder cover and using a small pair of diagonal wire cutters."
+  
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+IV. "Wide Band" Modification, provided by Cole Cunningham, AA7RD
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Following is a modification for the Kenwood TH-79A Dual Band HT which
+opens it up to tuning from 67-174 MHz and 400-511 MHz.  Actual receive was
+85-135.995 AM and 136-179.995 FM with reasonable (0.5 microvolt
+or better) sensitivity at all the points I measured.  Transmit was 
+136-179.995 and 400-511 with power dropping off at the ends but still
+usable (about 0.5w on the high scale at the band edges).
+
+As usual, I take no responsibility for the mods, or your use of the unit
+after mod.  Please exercise good judgement and don't endanger our ham bands
+with your irresponsible actions.
+
+The observations noted are all I tried and I have no further data.
+This is such a delicate operation that one shot was all I wanted to do,
+and when it worked I quit!!!
+
+WARNING-CAUTION-LOOKOUT-ETC!!!
+The diodes to be moved are microscopic!!  About 1mm long by 0.5mm wide.
+This mod should be done by professionals on a closed track only.
+Children, do not attempt this at home.  Requires extremely small soldering
+tools and MUCH skill.  I had a professional surface mount facility do mine...
+
+
+1. Open the unit by removing three screws from the back and one under the 
+   DC power input cover.  Carefully separate the front and back pieces.
+   The two case halves may be disconnected by pulling the wired plug and by
+   prying the brown latch on the ribbon cable connector up enough to
+   release it.
+
+2. On the front PC board in the lower right corner as viewed from the rear
+   with the knobs pointing up there are seven spots for diodes in a row,
+   with one diode missing.
+
+                                    |
+                     o o o o x o o  |
+                    ________________|
+                     2 3 4 5 6 7 8
+
+   The numbers are D302-D308, left to right, with D306 missing.
+
+3. Remove D304, and D307. Put them away in a safe place (Just in case...)_
+
+4. You should now have:
+                                    |
+                     o o x o x x o  |
+                    ________________|
+                     2 3 4 5 6 7 8
+
+5. Reassemble and good Luck.
+
+Enjoy, but don't create problems with the new capability...Wouldn't it be
+nice if Kenwood would make a RX only mod with these capabilities and we 
+wouldn't have to worry about accidental transmissions where we shouldn't
+be transmitting.   I, for one, don't want or need to TX, just RX...
+
+73, Cole, AA7RD
+August 11, 1994
+
+(Note - This mod also adds 2 more menu settings. One of which is an
+        AM/FM demod selector for the 300-400 Mhz band. To access this
+        band, select the VHF band, press F, then press the Low/Hi key.
+        Repeat to return to 144 Mhz. The AM/FM selector will allow you
+        to listen to Military transmissions in the 300Mhz band in 
+        either AM or FM.
+        - Clayton)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+V. Remote Base Operation with Kenwood 732/733
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Kenwood has now simplified remote base operation of their mobile rigs
+with the TH79.
+
+I will not give a step by step on how to control the mobile rigs, since
+they are different. Hoewever, to really understand this feature, I would
+first get to know the remote control feature on the mobile very well. This
+makes the following explanation a little clearer!
+
+To access this feature, hold [PTT] and [MR] while [POWER ON].
+
+The display will indicate -RC-, which I presume means 'Remote Control'.
+
+If you have correctly matched your DTSS codes, frequencies, etc, the
+dual bander's keypad now becomes a function pad. Pressing certain keys
+enables or disables functions on the mobile rig by sending the DTMF
+sequences for you.
+
+Please note that all this fuction does is send the DTMF tones over the air
+to control your mobile rig. I have not made a list of what each key does,
+but as the 79 sends the DTMF tones, the display will indicate the function.
+(i.e. - RPT ON, RPT OFF, TONE ON, TONE OFF, etc.)
+
+73 de Clayton 
+KD4IDN
+
+And this from Chuck Scott, N8DNX...
+
+"The "RC" function is configured to directly control radios such as
+the TM-732.  In fact, if you look at the layout of the microphone remote
+commands for the 732 it very closely matches the key assignments for of
+the "RC" mode.  Since I have a TM-732 installed in my car, I had a chance
+to try this out and it's VERY convenient.  Everything from direct frequency
+entry with the "F" key to enabling X-Band repeat.  I'm really surprised 
+they aren't marketing this feature of the radio."
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+VI. Post Modification Spec Sheet, by Clayton Wagar, KD4IDN
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Here is a small chart showing the measured specifictions of TH79
+S/N 60300272 after modification. The measurements were made with an
+IFR 1200S Service Monitor, on the bench, with a 6V power supply.
+Your milage may vary - these are just what happened with mine, and
+I would suspect that most units are pretty similar.
+
+73 de Clayton
+KD4IDN
+
+
+Band - VHF -----------------------------------------------------
+Frequency       Sens (uV)       Power           Mode
+---------       ---------       -----           ----
+108             4               -               A3
+110             2               -               "
+115             .75             -               "
+120             .40             -               "
+125             .30             -               "
+130             .30             -               "
+135             .30             -               "
+140             .12             2.9             F3
+145             .12             2.9             "
+150             .13             2.8             "
+155             .15             2.4             "
+160             .18             1.9             "
+165             .20             1.45            "
+170             .21             1.10            "
+175             .30             0.85            "
+179.995         .35             0.70            "
+
+ 
+Band - VHF (2) (set to 300Mhz) --------------------------------
+Frequency       Sens (uV)       Power           Mode
+---------       ---------       -----           ----
+300             50/75           -               A3/F3
+320             4/20            -                 "
+340             .3/.6           -                 "
+360             .2/.5           -                 "
+380             .2/.6           -                 "
+400             .2/.75          -                 "
+
+
+Band - UHF -----------------------------------------------------
+Frequency       Sens (uV)       Power           Mode
+---------       ---------       -----           ----
+400             11              1.0             F3
+410             4               1.5             "
+420             1               1.85            "
+430             .2              2.2             "
+435             .12             2.3             "
+440             .10             2.5             "
+445             .10             2.5             "
+450             .10             2.5             "
+455             .15             2.3             "
+460             .16             2.3             "
+465             .20             2.0             "
+470             .45             1.8             "
+480             1               1.6             "
+490             2               1.3             "
+500             6               1.1             "
+510             no RX over 509  0.8             "
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+VII. Cross Band Repeat, from Chuck Scott, N8DNX
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  The TH-79 does go into X-Band repeat.  Press the "F" key then the "MONI"
+key to enter repeat mode.  Use the same to return to normal.  There is a 
+10 min transmit limit so it's not useable for long duration monitoring of
+a continuous transmission.  That's understandable in light of the number 
+of horror stories I've heard of people frying their HT's in repeat mode.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+VIII. Other Observations, Ramblings, Etc.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+From Chuck Scott, N8DNX....
+
+  "Regarding the lack of a memory Lock Out function, I talked at length
+with the Kenwood people.  They have been inundated calls about this and
+have told me that they are preasuring Japan to come up with a processor
+replacement to fix this, perhaps as a retrofit.  I encourage any owner of
+a TH-79 to write to Kenwood insisting on such a modification at no cost
+and asking that they be informed when it is available.  I think this is 
+justified for several reasons.  First, I have been told by another ham
+that the official brochure indicates that such a feature is included.  
+Second, and more important, it is arguable that the radio is not suited 
+to the application without memory lockout.  After all, it's an 80 channel
+radio.  To make effective use of that many channels REQUIRES a channel
+lockout function.  Without effective use of that many channels, the radio
+is not comparable to the current standard for such a unit.  
+
+  BTW, close inspection of the RF deck in my radio shows no obvious
+missing parts.  I didn't remove the board to check the other side, but
+my suspicion is that the 800 MHz parts are installed.  I'd be interested
+in input from others on that.  So far I've not discovered how to make it
+display any 800 MHz frequencies though."
+
+=======================================================================
+Kenwood TH79 Dual Bander Modification and Feature Guide  r1.5 The End!
+=======================================================================
+
+
+

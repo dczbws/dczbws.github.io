@@ -1,0 +1,544 @@
+ 
+ 
+Приложение 2
+ 
+СПИСОК ВСТРЕЧАЮЩИХСЯ ПРИ РАДИООБМЕНЕ СОКРАЩЕНИЙ.
+ 
+ 
+      #G0АСС Районный диспетчерский центр.
+      АТС Управление воздушным движением.
+      DME Дальномерное оборудование.
+      ЕТА Расчетное время прилета.
+      ETD Расчетное время вылета.
+      ЕТО Расчетное время пролета.
+      FIR Район полетной информации.
+      GMT Гринвичское среднее поясное время.
+      IFR Правила полета по приборам.
+      ILS Система посадки по приборам.
+      1МС Сложные метеоусловия, требующие пилотирования по приборам.
+      INS Инерциальная= навигационная система.
+      NDB Ненаправленный радиомаяк.
+      NOTAM Сообщение пилотам.
+      QFE Текущее значение атмосферного давления на уровне аэродрома.
+      QNE Стандартное атмосферное давление.
+      QNH Атмосферное давление, приведенное к уровню моря.
+      RPM Обороты в минуту.
+      RVR Дальность видимости на ВПП.
+      SIGMET Метеорологическое сообщение об опасных явлениях.
+      SSR Вторичная радиолокация; вторичный радиолокатор.
+      VFR Правила визуального полета.
+      VHF Частота метрового диапазона волн.
+      VIP Особо важное лицо.
+      VMC Визуальные метеорологические условия.
+      VOR Всенаправленный УКВ-радиомаяк (ВОР).
+
+Приложение 3
+ 
+ПЕРЕДАЧА ДОПОЛНИ ТЕЛЬНОЙ МЕТЕОРОЛОГИЧЕСКОЙ ИНФОРМАЦИИ
+ 
+1. Таблица описания тормозных характеристик ВПП.
+ 
+ 
+      #G0Описание Коэффициент 
+      GOOD хорошо 0,40 и выше  
+      BETWEEN FAIR AND GOOD посредственно-хорошо от 0,39 до 0,36  
+      FAIR посредственно от 0,35 до 0,30  
+      BETWEEN== FAIR AND POOR посредственно-плохо от 0,29 до 0,26  
+      POOR плохо от 0,25 и ниже  
+
+
+ 
+2. Передача фактической погода аэродрома.
+ 
+2.1. Общая фразеология.
+ 
+ 
+      #G0Actual weather, latest weather,
+      present weather фактическая погода 
+      Surface wind приземный ветер 
+      Cross wind боковой ветер 
+      Visibility видимость 
+      Reduction visibility ухудшение видимости 
+      Vertical visibility вертикальная видимость 
+      Cloud base, ceiling нижняя граница облачности 
+      Variable wind ветер неустойчивый 
+      Runway= visual range (RVR)максимальная дальность видимости ВПП 
+      sky clear ясно 
+      wind calm тихо 
+      dew point точка росы 
+      marginal weather сложные погодные условия 
+      temperature minus 28 degrees температура - 28 С 
+      Centigrade braking action сцепление 
+      braking coefficient коэффициент сцепления 
+      runway-in-use, active runway рабочая ВПП 
+      magnetic direction магнитный курс 
+      no change без изменений (БИЗМ)
+      wind shear сдвиг ветра 
+      vertical wind shear вертикальный сдвиг ветра 
+      low altitude wind shear сдвиг ветра на малой высоте 
+
+2.2. Состояние ВПП.
+ 
+ 
+      #G0runway is dry ВПП сухая 
+      runway is wet (damp)ВПП мокрая (влажная)
+      water patches on the runway участки воды на ВПП 
+      runway is flooded, 2 cm ВПП залита водой, 2 см 
+      runway is covered with dry snow to a depth of 5 cm ВПП покрыта сухим 
+      снегом высотой 5 см 
+      runway is covered with patches of:на ВПП участки:
+      - dry snow - сухого снега 
+      - compacted (rolled) snow - утрамбованного снега 
+      - slush - слякоти 
+      - frozen slush - замерзшей слякоти 
+      - ice - льда 
+      - rough ice - шероховатого льда 
+      - ice and snow - льда и снега 
+      RW is covered with snowdrifts сугробы на ВПП 
+      RW is covered with frozen ruts and ridges замерзшие колеи и борозды на ВПП 
+
+      snow removed - length 2 width 30 m снег удален - длина 2 км, ширина - 30 м 
+
+      RW totally free of snow and ice (cleared and dry)ВПП целиком свободна от 
+      снега и льда (очищена и сухая)
+      cleared of snow (ice) length and width очищена от снега (льда) во всю 
+      длину и ширину 
+      runway is treated ВПП обработана 
+      RW clearance is in progress идет чистка ВПП 
+      snow clearance will be completed by 1715
+       чистка снега будет завершена к 17.15 
+
+2.3. Пример зачитывания фактической погоды.
+ 
+УУЕЕ======== 1900====== 270 - 5 ВИД 8 МГЛА 5 КУЧ ДОЖД 1000 ПЛ== 18 ДАВЛ 735 
+(979) УМРН БОЛТАНКА МК 247 П СУХАЯ СЦ 0,70 БИЗМ
+Sheremetyevo actual weather at 1900 Moscow time:
+surface wind 270 degrees, 5 metres per second, visibility 8 km, haze, 4 octas 
+cumulonimbus, cloud base one thousand metres, temperature 18 degrees Centigrade, 
+QFE 735 millimetres, 979 millibars, moderate turbulence, runway-in-use 25 right, 
+dry, braking action - good, no change.
+ 
+УУЕЕ===== 0530=== 270 - 7/14= ВИД 3000= ЛИВН= МОКР= СНЕГ= 5= КУЧ= ДОЖД= 400= В\ 
+В= 100
+738= (984)= ТО
+МК= 247= Л= МОКРАЯ= СЦ= ОЗ= БИЗМ
+Sheremetyevo latest weather at 0530 Moscow time: 
+surface wind 270 degrees, 7 metres per second, max 14 metres per second, 
+visibility 3 kilometres, showers of wet snow, 4 octas cumulonimbus, ceiling 400 
+metres, vertical visibility 100 metres, QFE 738 millimetres or 984 millibars, 
+temperature 0 degree Centigrade, active runway 25 left, wet, braking action - 
+fair, no change.
+ 
+ 
+УУВВ===== 1500================ НСТ 3 ВИД 
+4000 500 T-10 ДАВЛ 747 (996)
+MK 016 ПОКР СНЕГОМ СЦ 0,24 БИЗМ
+ 
+Vnukovo present weather at 1500 Moscow time: 
+surface wind variable, 3 metres per second, visibility 4 kilometres, cloud base 
+500 metres, temperature minus 10 degrees Centigrade, QFE 747 millimetres or 996 
+millibars, runway-in-use 02, covered with snow, braking action - poor, no 
+change.
+ 
+ 
+2.4. Соответствие баллов октантам. 
+ 
+ 
+      #G01 1 
+      2 - 3 2 
+      4 3 
+      5 4 
+      6 5 
+      7 - 8 6 
+      9 7 
+      10 8 
+
+ 
+ 
+3. Передача прогноза.
+3.1. Сокращения и выражения, употребляемые в прогнозе.
+ 
+ 
+      #G0GRADU (gradually)ПОСТ (постепенно)
+
+=
+      #G0TEMPO (temporarily)ВРЕМ (временно)
+      INTER (intermittent)КРТК (кратковременно)
+      TEND (tendency)ТЕНД (тенденция)
+      NOSIG (no significant change)без существенных изменений 
+
+ 
+При передаче прогноза в эфир используется сокращенная форма: GRADU, TEMPO, 
+INTER, TEND, NOSIG.
+ 
+ 
+      #G0RAPID быстрое= изменение 
+      amendment поправка (при передаче поправки к прогнозу)
+      probability вероятность 
+      obstacles are obscured in the vicinity of the airfield в р-не а-ма мз (в 
+      районе аэродрома мачты закрыты)
+      partially частично 
+      higher верхний 
+      lower нижний 
+      layer слой 
+      slight слабый 
+      moderate умеренный 
+      heavy сильный 
+      extreme очень сильный 
+
+Следует помнить, что в прогнозе количество облачности указывается в октантах, а 
+высота облаков и вертикальная видимость - в десятках метров.
+Группа ХОР, являющаяся индикатором хорошей погоды, переводится, как CAVOK 
+(ceiling and visibility okey). 
+Она употребляется, если: 
+а) видимость 10 км и более;
+б) отсутствуют облака высотой ниже 1500 м;
+в) отсутствуют гроза и осадки.
+ 
+ 
+3.2. Примеры зачитывания прогноза.
+ 
+УКББ==== 1322= 16009/14 ВИД 3500 ДМК 6СККУЧ-ДОЖД 
+030 В/Г= 900 КРТК=== 1522 ВИД 1000 ЛИВН
+ДЖД===== ЗРДОЮ ТЕНД==== 1419 ГРОЗА С ГРАДОМ
+ТЕНД=== 1922 ГРОЗА
+ 
+Weather forecast for Borispol between 1300 and 2200 Moscow time:
+Surface wind 160 degrees 9 metres per second, max 14 metres, visibility 3500 
+metres, haze, 6 octas stratocumulus, cumulonimbus, cloud base 300 metres, top of 
+cloud 9000 metres, INTER between time 1500 and 2200 visibility 1000 metres, 
+showers, 3 octas fractonim-bus, cloud base 100 metres, TEND between time 1400 
+and 1900 thunderstorm, hail, TEND between 1900 and 2200 thunderstorm.
+ 
+УУЕЕ========= 1322==== 07007 ВИД 6000 ДМК 8CK030 ПОСТ 1920
+ВИД 2500 МГЛА 8СЛ020
+ 
+Weather forecast for Sheremetyevo between 1300 and 2200 Moscow time:
+surface wind 070 degrees 07 metres per second, visibility 6 kilometres, mist, 8 
+octas stratocumulus, cloud base 300 metres, GRADU between 1900 hours and 2000 
+hours visibility 2500 metres, haze, 8 octas stratus, cloud base 200 metres.
+ 
+4. Атмосферные явления
+ 
+4.1. Осадки.
+ 
+ 
+      #G0precipitation осадки 
+      freezing precipitation переохлажденные осадки 
+      hoar frost иней 
+      rain дождь 
+      snow снег 
+      hail град 
+      drizzle морось 
+      heavy rain сильный дождь 
+      showers ливни 
+      heavy showers сильные ливни 
+      rain and snow, sleet дождь со снегом 
+      heavy rain and snow сильный дождь со снегом 
+      showers of rain and snow ливневый дождь со снегом 
+      heavy showers of rain and 
+      snow сильный ливневой дождь со снегом 
+      freezing rain переохлажденный дождь 
+      heavy freezing rain сильный переохлажденный дождь 
+      freezing drizzle переохлажденная морось 
+      ice crystals ледяные иглы 
+      ice pellets ледяной дождь 
+      ice pellet shower ливневой ледяной дождь 
+      heavy snow сильный снег 
+      snow pellets снежная крупа 
+      snow grains снежные зерна 
+      snow showers ливневой снег 
+      heavy snow showers сильный ливневой снег 
+      snowfall снегопад 
+
+4.2. Явления, ухудшающие видимость.
+ 
+ 
+      #G0drifting snow низовая метель 
+      blowing snow общая метель 
+      low-drifting snow поземок 
+      blowing dust приподнятая пыль 
+      sand storm песчаная буря 
+      blowing sand приподнятый песок 
+      rising dust поднимающаяся пыль 
+      rising sand поднимающийся песок 
+      dust пыль 
+      dust storm пыльная буря 
+      haze мгла
+       
+      dust haze пыльная мгла 
+      mist дымка 
+      smoke дым 
+      fog туман 
+      patches of fog гряды тумана 
+      freezing fog переохлажденный туман 
+      ice fog ледяной туман 
+      radiation fog радиационный туман 
+      shallow fog поземный туман 
+      ground fog приземный туман 
+      fog dispersal рассеяние тумана 
+
+4.3. Прочие атмосферные явления.
+ 
+ 
+      #G0active thunderstorms активные грозы 
+      anticyclone антициклон 
+      cyclone циклон 
+      pressure давление 
+      low pressure zone область пониженного давления 
+      high pressure zone область повышенного давления 
+      pressure centre центр давления 
+      depression депрессия 
+      thunderstorm гроза 
+      heavy thunderstorm сильная гроза 
+      hail (rain) thunderstorm гроза с градом (дождем)
+      thunderstorm situation грозовое положение 
+      airmass внутримассовая 
+      frontal фронтальная 
+      local, isolated отдельные 
+      moving смещающаяся 
+      thunderstorm area район грозовой деятельности 
+      widespread thunderstorm обширный район бури 
+      sand storm песчаная буря 
+      typhoon тайфун 
+      monsoon муссон
+       
+      turbulence турбулентность (болтанка) 
+      low altitude turbulence турбулентность на малой высоте 
+      icing обледенение 
+      microburst микропорыв 
+      jet stream струйное течение 
+      jet axis ось струйного течения 
+      wind shear сдвиг ветра 
+      waterspout водяной смерч 
+      funnel cloud смерч (воронкообразное облако)
+      tornado торнадо 
+      frontal passage прохождение фронта 
+      front фронт 
+      stationary front неподвижный= (стационарный фронт)
+      cold front холодный фронт 
+      warm front теплый фронт 
+      gust front фронт порывов 
+      diffused front размытый фронт 
+      occlusion окклюзия 
+      occluded front окклюдированный фронт 
+      front with waves фронт с волнами 
+      stable front фронт стационарный 
+      frontal фронтальный 
+      frontal zone фронтальная зона 
+      high frontal zone высотная фронтальная зона 
+      gust порыв 
+      squall шквал 
+      line squall линия шквала 
+      severe line squall сильный фронтальный шквал 
+      tropopause тропопауза 
+      trough ложбина 
+      saddle седловина 
+      crest гребень 
+      ridge of high pressure гребень высокого давления 
+      periphery периферия 
+      peripheral периферийный 
+      headwind встречный ветер 
+      tailwind попутный ветер 
+      spotwind ветер в точке 
+      mountain wave горная волна 
+      humidity влажность 
+      marked mountain wave сильно выраженная горная волна 
+      upper wind ветер на высотах 
+      upper air temperature температура воздуха на высоте 
+      downburst нисходящий порыв 
+
+ 
+5. Географические направления.
+ 
+ 
+      #G0north, northern север, северный 
+      east, eastern восток, восточный 
+      west, western запад, западный 
+      south, southern юг, южный 
+      northward в северном направлении 
+      eastward в восточном направлении 
+      westward в западном направлении 
+      southward в южном направлении 
+      north-west северо-запад 
+      north-east северо-восток 
+      south-west юго-запад 
+      south-east юго-восток 
+      в северо-западном направлении = 
+      в северо-восточном направлении = 
+      в юго-западном направлении = 
+      в юго-восточном направлении = 
+
+ 
+ 
+ 
+ 
+6. СИГМЕТ.
+ 
+СИГМЕТ (от английского SIGMET - significant meteorological information) - это 
+информация об особых и опасных для полетов авиации метеорологических явлениях 
+погоды, наблюдающихся и/или прогнозируемых в районе полетной информации.
+ 
+6.1. Сокращения и слова, наиболее часто используемые в телеграммах информации 
+СИГМЕТ.
+ 
+ 
+      #G0airmass = внутримассовый 
+      btn between между 
+      cat clear air turbulence турбулентность ясного неба 
+      cb cumulonimbus кучево-дождевые облака 
+      deg degrees градусов 
+      Е east восток 
+      fcst forecasted прогнозируемый 
+      FIR flight information region район полетной информации 
+      fl flight level эшелон полета 
+      frontal = фронтальный 
+      gr hail град 
+      intsf intensify усиление 
+      intst intensity интенсивность 
+      ic in cloud в облаках 
+      ice icing обледенение 
+      isol isolated изолированный 
+      kmph kilometres per hour километров в час 
+      loc locally местами 
+      lsq line squall линия шквала 
+      mod moderate умеренный 
+      mov moving смещающийся к 
+      mps metres per second метров в секунду 
+      nr number номер 
+      N north север 
+      nc no change без изменений 
+      obs observed наблюдаемый 
+      ocnl occasionally временами 
+      pricipita-
+      tion = осадки 
+      S south юг 
+      sev severe сильный 
+      sfc surface поверхность 
+      ts thunderstorm гроза 
+      turb turbulens турбулентность 
+      top = верхняя кромка облаков 
+      valid = действителен 
+      vsp vertical speed вертикальная скорость 
+      W west запад 
+      wkn weakening ослабление 
+      z zone зона 
+
+6.2. Пример зачитывания СИГМЕТа.
+ 
+ 
+SIGMET nr 1
+valid 1400/1800 
+mod to sev cat obs and fcst in Moscow FIR btn fl 8100 and 11 100 wkn SIGMET 
+number one valid between 1400 and 1800 Zulu * - moderate to severe clear air 
+turbulence observed and forecasted in Moscow FIR between flight levels 8100 and 
+II 100 metres, weakening.
+___________________
+* Время в СИГМЕТе указывается по Гринвичу.
+ 
+ 
+SIGMET nr 3 valid 1300/1900 
+over Moscow FIR obs and fcst frontal ts gr mov NE 40 kmph cb top 10/11 km loc 
+12/13 km mod ice ic intsf 
+SIGMET number three valid between 1300 and 1900 Zulu:
+=over Moscow FIR observed and forecasted frontal thunderstorm, hail, moving 
+north-east at 40-kilometres per hour, cumulonimbus top between 10 and II 
+kilometres, locally between 12 and 13 kilometres, moderate icing in cloud, 
+intensify.
+ 
+SIGMET nr 5 valid 1300/1800 
+sev ts sev lsq cb tops to 10 000 m fcst Moscow FIR mov E 5 mps intst nc 
+SIGMET number 5 valid between 1300 and 1800 Zulu: 
+severe thunderstorm, severe linesquall, cumulonimbus tops to 10000 metres 
+forecasted over Moscow FIR moving east at 5 metres per second, intensity - no 
+change.
+ 
+7. Виды облаков.
+ 
+ 
+      #G0cirrus перисиые 
+      cirrostratus перисто-слоистые 
+      cirrocumulus перисто-кучевые 
+      altostratus высокослоистые 
+      altocumulus высококучевые 
+      stratus слоистые 
+      nimbostratus слоисто-дождевые 
+      stratocumulus слоисто-кучевые 
+      fractonimbus разорванно-дожлевые 
+      cumulus кучевые 
+      cumulonimbus кучево-дождевые 
+      cloud amount количество облаков 
+      scattered рассеянные облака 
+      embedded сплошная облачность 
+      cloud layer слой облаков 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Приложение 4
+ 
+ИНФОРМАЦИЯ= АТИС= И= ВОЛМЕТ.
+ 
+1. Радиовещательные передачи АТИС (от английского ATIS - Automatic Terminal 
+Information Service - служба автоматической передачи информации в районе 
+аэродрома) предназначены для оперативного обеспечения прилетающих и вылетающих 
+воздушных судов в районе аэродрома необходимой метеорологической и полетной 
+информацией. В начале каждых суток, в 00 ч 00 мин, сообщению АТИС присваивается 
+индекс LА¦, который при любых изменениях информации или при поступлении новых 
+данных меняется на индекс LВ¦, LС¦ и т.д. в соответствии с английским алфавитом.
+ 
+ 
+Пример информации АТИС:
+ 
+Sheremetyevo International, Information Kilo, 1200 hours local time: expect ILS 
+approach, active runway 25 left, wet, braking action fair, good, fair; 
+no delay expected; 
+transition level 1200 metres; 
+runway 25 right is out of operation due repairs
+=weather:
+wind calm, visibility 2000 metres, 6 octas cumulonimbus, ceiling 1500 metres, 
+temperature plus 22, dewpoint plus 13, QFE 745 millimetres or 998 millibars, no 
+change. 
+ATC departure clearance: 
+westbound - AR (Buzharovo) 3,
+northbound-KN (Kostino) 2,-climbing to level 1200 metres monitor 118.1, up to 
+level 1500 metres frequency 122.7;
+===== southbound - KS (Opalikha) 3, on runway heading 500 metres height, 
+frequency 118.1.
+==== Acknowledge information Kilo and QFE. 
+Шереметьево, информация LКонстантин¦, 12.00 по московскому: заход по ИЛС; ВПП 25 
+левая, мокрая, сцепление посредственное, хорошее, посредственное; 
+посадка без задержки; 
+эшелон перехода 1200 м;
+ВПП 25 правая закрыта, ведутся строительные работы; 
+погода: тихо, видимость 2000 м, 8 баллов кучево-дождевой, нижняя граница 1500м, 
+температура +22, точка росы +13, давление аэродрома 745 мм или 998 мбар, без 
+изменений. Условия выхода:
+в западном направлении - Бужарово 3,
+в северном направлении - Костино 2, - до 1200 м прослушивать 
+118,1, набор 1500 м, частота 122,7;
+в южном направлении - Опалиха 3, на курсе взлета 500 м, частота 118,1.
+Получение информации LКонстантин¦ и давление аэродрома подтвердите
+ 
+2. Радиовещательные передачи ВОЛМЕТ (условное сокращение VOLMET от 
+Meteorological Information for Aircraft in Flight - метеорологическая информация 
+для пролетающих самолетов) предназначены для обеспечения экипажей воздушных 
+судов, находящихся в полете, метеорологической информацией по аэродромам.
+ 
+Пример информации ВОЛМЕТ:
+Kiev-Meteo,
+Borispol actual weather at 0300 Moscow time:
+wind 280 degrees at 06 metres, visibility 3000 metres, rain, 8 octas, cloud base 
+300 metres, temperature plus 10 degrees, dewpoint plus 6, QFE 734 millimetres or 
+978 millibars, GRADU visibility 1500 metres, rain. 
+LКиев-Метео¦, 
+погода 0300,
+Борисполь двести восемьдесят градусов ноль шесть, видимость три тысячи, дождь, 
+десять баллов триста, плюс десять, точка росы плюс шесть, семьсот тридцать 
+четыре, постепенно видимость тысяча пятьсот, дождь.
+__________________________________
